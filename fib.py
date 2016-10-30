@@ -1,3 +1,6 @@
+### Calculates and sums the first 4 million even fibbonacci numbers. 
+
+
 def fibs(num):
     strt = [1,1]
     while len(strt) <= num:
