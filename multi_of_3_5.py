@@ -1,4 +1,4 @@
-### Calculates and sums all the multiples of 5 and five below 1000.
+### Calculates and sums all the multiples of 3 and 5 below 1000.
 
 lis = list(range(1,1000))
 multi_3_5 = []
