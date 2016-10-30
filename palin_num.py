@@ -1,3 +1,5 @@
+### Can determine the largest palindromic number that is also the sum of two 3-digit numbers.
+
 import 'prime_factors'
 
 def fac_list(number):
@@ -28,6 +30,11 @@ palindromes = []
 for num in lis:
     if str(num) == str(num)[::-1]:
         palindromes.append(num)
+        
+fac_list_3 = []
 
-
+for num in palindromes:
+    if three_digit_prod(num) == True:
+        fac_list_3.append(num)
+        
 print fac_list(99999)
