@@ -1,5 +1,5 @@
-### Determines the largest prime fator of 600,681,475,143
-### Can determine the 
+### Determines the largest prime fator of 600,681,475,143.
+### Can determine the largest prime of numbers below 6 trillion quickly.
 
 import math
 
